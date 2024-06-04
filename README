@@ -1,0 +1,5 @@
+Batchrender out single model with multiple materials (material slots) using Geometry Node ("Set Material Index" with prop "#frame").
+
+Compositor saves "Beauty", "Alpha", "AO", "Denoised Beauty", "Mat ID", "Obj ID", "Mist", "Shadow Catcher" as .tif.
+
+This scipt renames the "Beauty", "Denoised Beauty" files to ex. "Beauty Materialslot 0.tif".

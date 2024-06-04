@@ -2,4 +2,11 @@ Batchrender out single model with multiple materials (material slots) using Geom
 
 Compositor saves "Beauty", "Alpha", "AO", "Denoised Beauty", "Mat ID", "Obj ID", "Mist", "Shadow Catcher" as .tif.
 
-This scipt renames the "Beauty", "Denoised Beauty" files to ex. "Beauty Materialslot 0.tif".
+This scipt renames the "Beauty", "Denoised Beauty" files using the active materials name from the active Material slot, in this example "Material 0". Resulting in "Beauty Material 0.tif" and so on.
+
+Also cleaning out unesacary files, like duplicates of "Alpha", "AO" and so on. Only keeping one of each.
+
+
+----
+
+Tested on Blender 4.
